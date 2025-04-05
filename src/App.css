@@ -1,0 +1,53 @@
+/* Navbar container */
+nav {
+    background-color: #1e1e2f;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Navbar links */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+/* Hover effect */
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* Active link style (optional if you're using NavLink) */
+nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #00bcd4;
+}
+
+/* Responsive tweaks (optional) */
+@media (max-width: 350px) {
+    nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+.color-change {
+    filter: hue-rotate(40deg) saturate(1.5);
+}
+
+.container {
+    background-image: url("./assets/bg.jpeg");
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
