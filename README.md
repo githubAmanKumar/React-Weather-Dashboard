@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# 🌦️ React-Weather-Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive React.js weather dashboard that allows users to search for real-time weather data of any city using the OpenWeatherMap API. Users can also save their favorite cities and view their weather information on a separate favorites page.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+[View Live Project](https://githubamankumar.github.io/React-Weather-Dashboard/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🧠 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🌍 Search for weather by city name  
+- 🌡️ Displays:
+  - City Name  
+  - Current Temperature  
+  - Weather Description (e.g., clear sky, rain)  
+  - Weather Icon  
+- ❤️ Mark and view your favorite cities  
+- 📱 Responsive design (mobile + desktop)  
+- 🔁 Loading and error state handling  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Tech Stack
 
-### `npm run build`
+- [React.js](https://reactjs.org/)
+- [OpenWeatherMap API](https://openweathermap.org/)
+- CSS (Flexbox, Grid)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone the Repository
 
-### `npm run eject`
+```bash
+git clone https://github.com/githubAmanKumar/React-Weather-Dashboard.git
+cd React-Weather-Dashboard
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Install Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Add OpenWeatherMap API Key
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Create a `.env` file in the root directory and add your API key like this:
 
-## Learn More
+```env
+REACT_APP_WEATHER_API_KEY=your_api_key_here
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can get a free API key by signing up at [OpenWeatherMap](https://openweathermap.org/api).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Start the App
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+App will run at 
+```bash
+http://localhost:3000
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 💡 React Concepts Used
 
-### Making a Progressive Web App
+- Functional Components  
+- React Hooks (`useState`, `useEffect`)  
+- Conditional Rendering  
+- State Management  
+- API Handling with Async/Await  
+- Component Reusability  
+- Error and Loading Handling  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🧑‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Aman Kumar**  
+📧 [amankumarsre5378@gmail.com]  
+🔗 [LinkedIn](https://www.linkedin.com/in/contact-aman-kumar) | [Portfolio](https://githubamankumar.github.io/simplePortfolio/)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
